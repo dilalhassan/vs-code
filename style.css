@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxa;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  top: 0%;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav input {
+  width: 20%;
+  height: 35%;
+  border-radius: 5px;
+}
+
+.nav button {
+  padding: 8px 18px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.first{
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    /* background-color: blue; */
+    text-align: center;
+    margin-left: 25%;
+    gap: 50px;
+}
+
+.first .btn {
+  background-color: blue;
+  border-radius: 5px;
+} 
+
+.first button {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  /* background-color: blue; */
+  border-radius: 10px;
+  margin-left: 10%;
+  position: relative;
+}
+
+.box .box-1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: forestgreen; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.box .box-1 img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hr-box {
+  width: 80%;
+  height: 80%;
+  /* background-color: green; */
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.hr-box .left-hr {
+  width: 40%;
+  height: 100%;
+  /* background-color: pink; */
+  text-align: center;
+  margin-right: 10%;
+}
+
+.hr-box .right-hr {
+  width: 60%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.hr-box .right-hr img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.lang {
+  width: 80%;
+  height: 50%;
+  /* background-color: yellow; */
+  margin-left: 10%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.lang .lang-left {
+  width: 40%;
+  height: 100%;
+  /* background-color: aqua; */
+  margin-right: 10%;
+}
+
+.lang .lang-right {
+  width: 60%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-box1 {
+  width: 200px;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.right-box2 {
+  width: 200px;
+  height: 100%;
+  /* background-color: orangered; */
+}
+
+.right-box3 {
+  width: 200px;
+  height: 100%;
+  /* background-color: yellow; */
+}
+
+.midle {
+  width: 80%;
+  height: 80%;
+  /* background-color: blue; */
+  margin-left: 10%;
+  display: flex;
+}
+
+.midle .left-md {
+  width: 40%;
+  height: 100%;
+  /* background-color: green; */
+  margin-right: 10%;
+}
+
+.midle .right-md {
+  width: 60%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+
+.right-md img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.picimg {
+  width: 80%;
+  height: 80%;
+  /* background-color: blue; */
+  margin-top: 8%;
+  margin-left: 10%;
+  display: flex;
+}
+
+.left-img {
+  width: 40%;
+  height: 100%;
+  margin-right: 10%;
+  /* background-color: yellow; */
+}
+
+.right-img {
+  width: 60%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.right-img img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.test {
+  width: 50%;
+  height: 30%;
+  /* background-color: aqua; */
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+
+.footer {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 10px;
+}
+
+.footer-1 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+.footer-2 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-3 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-4 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-5 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-6 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-7 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer-8 {
+  width: 230px;
+  height: 200px;
+  border: 1px solid black;
+  
+}
