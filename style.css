@@ -53,11 +53,21 @@ body {
     text-align: center;
     margin-left: 25%;
     gap: 50px;
+    margin-top: 10%;
 }
+
+.first h1 {
+margin-top: 30px;
+}
+
+.first h2 {
+  margin-top: 20px;
+  }
 
 .first .btn {
   background-color: blue;
   border-radius: 5px;
+  margin-top: 20px;
 } 
 
 .first button {
@@ -108,6 +118,14 @@ body {
   margin-right: 10%;
 }
 
+.hr-box .left-hr h1 {
+  margin-top: 20px;
+}
+
+.hr-box .left-hr h4 {
+  margin-top: 10px;
+}
+
 .hr-box .right-hr {
   width: 60%;
   height: 100%;
@@ -136,6 +154,14 @@ body {
   margin-right: 10%;
 }
 
+.lang .lang-left h2 {
+  margin-top: 20px;
+}
+
+.lang .lang-left p {
+  margin-top: 20px;
+}
+
 .lang .lang-right {
   width: 60%;
   height: 100%;
@@ -150,16 +176,28 @@ body {
   /* background-color: blue; */
 }
 
+.right-box1 h1 {
+  margin-top: 20px;
+}
+
 .right-box2 {
   width: 200px;
   height: 100%;
   /* background-color: orangered; */
 }
 
+.right-box2 h1 {
+  margin-top: 20px;
+}
+
 .right-box3 {
   width: 200px;
   height: 100%;
   /* background-color: yellow; */
+}
+
+.right-box3 h1 {
+  margin-top: 20px;
 }
 
 .midle {
@@ -175,6 +213,10 @@ body {
   height: 100%;
   /* background-color: green; */
   margin-right: 10%;
+}
+
+.midle .left-md p {
+  margin-top: 30px;
 }
 
 .midle .right-md {
@@ -205,6 +247,10 @@ body {
   /* background-color: yellow; */
 }
 
+.left-img p {
+  margin-top: 30px;
+}
+
 .right-img {
   width: 60%;
   height: 100%;
@@ -226,6 +272,10 @@ body {
   margin-left: 25%;
 }
 
+.test p {
+  margin-top: 20px;
+}
+
 
 .footer {
   width: 80%;
@@ -243,10 +293,20 @@ body {
   height: 200px;
   border: 1px solid black;
 }
+
+.footer-1 p {
+  margin-top: 20px;
+}
+
+
 .footer-2 {
   width: 230px;
   height: 200px;
   border: 1px solid black;
+}
+
+.footer-2 p {
+  margin-top: 20px;
 }
 
 .footer-3 {
@@ -255,10 +315,18 @@ body {
   border: 1px solid black;
 }
 
+.footer-3 p {
+  margin-top: 20px;
+}
+
 .footer-4 {
   width: 230px;
   height: 200px;
   border: 1px solid black;
+}
+
+.footer-4 p {
+  margin-top: 20px;
 }
 
 .footer-5 {
@@ -267,10 +335,18 @@ body {
   border: 1px solid black;
 }
 
+.footer-5 p {
+  margin-top: 20px;
+}
+
 .footer-6 {
   width: 230px;
   height: 200px;
   border: 1px solid black;
+}
+
+.footer-6 p {
+  margin-top: 20px;
 }
 
 .footer-7 {
@@ -279,9 +355,16 @@ body {
   border: 1px solid black;
 }
 
+.footer-7 p {
+  margin-top: 20px;
+}
+
 .footer-8 {
   width: 230px;
   height: 200px;
   border: 1px solid black;
-  
+}
+
+.footer-8 p {
+  margin-top: 20px;
 }
